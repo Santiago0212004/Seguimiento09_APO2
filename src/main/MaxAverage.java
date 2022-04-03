@@ -11,8 +11,10 @@ public class MaxAverage {
 		
 		int[] array = new int[n];
 		
+		int e;
 		for(int i = 0; i<n; i++) {
-			array[i] = sc.nextInt();
+			e = sc.nextInt();
+			array[i] = e;
 		}
 		
 		array = sort(array);
